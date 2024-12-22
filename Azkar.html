@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="أذكارك, حصن المسلم, اذكار النوم, السبحة, اذكار ما بعد الصلاة, اذكار المساء, اذكار الصباح">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="icon" type="image/png" href="Webpages/Images/moon.png">
+    
+    <title>أذكارك</title>
+
+</head>
+
+<body>
+
+ 
+    <div class="header">    
+        <span class="title">حصن المسلم</span>
+    </div> 
+    
+    <br>
+    
+    <div class="table">
+        <div class="t2">
+            <span class="prayer">مواعيد الصلاة</span>
+        </div>
+        <span id="demo"></span>
+        <table>
+            <thead>
+                <tr>
+                    <td>العشاء</td>
+                    <td>المغرب</td>
+                    <td>العصر</td>
+                    <td>الظهر</td>
+                    <td>الشروق</td>
+                    <td>الفجر</td>
+                    <td>اليوم</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>6:23</td>
+                    <td>4:59</td>
+                    <td>2:41</td>
+                    <td>11:55</td>
+                    <td>6:51</td>
+                    <td>5:17</td>
+                    <td>السبت</td>
+                </tr>
+                <tr>
+                    <td>6:23</td>
+                    <td>4:59</td>
+                    <td>2:41</td>
+                    <td>11:55</td>
+                    <td>6:51</td>
+                    <td>5:17</td>
+                    <td>الاحد</td>
+                </tr>
+                <tr>
+                    <td>6:23</td>
+                    <td>4:59</td>
+                    <td>2:41</td>
+                    <td>11:55</td>
+                    <td>6:51</td>
+                    <td>5:17</td>
+                    <td>الاثنين</td>
+                </tr>
+                <tr>
+                    <td>6:23</td>
+                    <td>4:59</td>
+                    <td>2:41</td>
+                    <td>11:55</td>
+                    <td>6:51</td>
+                    <td>5:17</td>
+                    <td>الثلاثاء</td>
+                </tr>
+                <tr>
+                    <td>6:23</td>
+                    <td>4:59</td>
+                    <td>2:41</td>
+                    <td>11:55</td>
+                    <td>6:51</td>
+                    <td>5:17</td>
+                    <td>الاربعاء</td>
+                </tr>
+                <tr>
+                    <td>6:23</td>
+                    <td>4:59</td>
+                    <td>2:41</td>
+                    <td>11:55</td>
+                    <td>6:51</td>
+                    <td>5:17</td>
+                    <td>الخميس</td>
+                </tr>
+                <tr>
+                    <td>6:23</td>
+                    <td>4:59</td>
+                    <td>2:41</td>
+                    <td>11:55</td>
+                    <td>6:51</td>
+                    <td>5:17</td>
+                    <td>الجمعة</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="Webpages/Sleep.html">اذكار النوم</a>
+            <a href="Webpages/Seb7a.html">السبحة</a>
+            <a href="Webpages/Al-salah.html">اذكار ما بعد الصلاة</a>
+            <a href="Webpages/Elmasa2.html">اذكار المساء</a>
+            <a href="Webpages/Elsba7.html">اذكار الصباح</a>
+            <div class="animation start-home"></div>
+        </nav>
+    </footer>
+
+    <script>
+        const d = new Date();
+        d.getDate(d.getDate() +50);
+        document.getElementById("demo").innerHTML=d;
+    </script>
+
+</body>
+</html>
